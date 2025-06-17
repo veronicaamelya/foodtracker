@@ -4,7 +4,7 @@ from PIL import Image
 import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
-from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input, decode_predictions
+
 
 # ----------------- SETUP -----------------
 st.set_page_config(page_title="Food Calorie Tracker", layout="centered")
